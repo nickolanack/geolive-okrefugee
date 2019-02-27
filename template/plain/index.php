@@ -8,6 +8,8 @@
  */
 defined('_JEXEC') or die();
 
+error_reporting(E_ERROR | E_PARSE);
+
 $app = JFactory::getApplication();
 $doc = JFactory::getDocument();
 $user = JFactory::getUser();
